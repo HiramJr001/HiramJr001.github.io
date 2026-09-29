@@ -21,7 +21,7 @@ Todo o texto da página (PT e EN), links e números ficam em [`src/content.ts`](
 
 | O quê | Onde |
 |---|---|
-| Foto do hero | `public/hiram-photo.webp` (retrato vertical, idealmente 920x1480 ou maior) |
+| Foto do hero | `public/hiram-avatar.webp` (retrato 4:5 centrado no rosto, 480x600) |
 | Currículo para download | `public/cv/Hiram_Galindo_Jr_CV.pdf` |
 | Prints dos projetos | `public/projects/` |
 | Cores (tema claro e escuro) | variáveis no topo de `src/index.css` |

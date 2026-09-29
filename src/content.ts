@@ -55,10 +55,17 @@ const pt = {
   },
   hero: {
     status: 'Em busca da minha primeira vaga em um time de tecnologia',
-    role: 'Dev front-end.',
-    sub: 'Construo interfaces que viram ferramenta de trabalho de verdade, usadas todo dia em produção.',
+    headline: 'Dev front-end que constrói ferramentas',
+    headlineAccent: 'usadas todo dia.',
+    sub: 'Meu software roda em produção num escritório de contabilidade. Agora quero crescer dentro de um time de tecnologia.',
     cta: 'Ver projetos',
     photoAlt: 'Retrato de Hiram Galindo Jr',
+    indexLabel: 'Projetos selecionados',
+    index: [
+      { name: 'BackOffice OS', note: 'Suíte de operações internas, em produção', year: '2025' },
+      { name: 'Document Guardian', note: 'Vencimentos em 80.000+ PDFs com OCR em cascata', year: '2025' },
+      { name: 'NFS-e Downloader', note: 'Notas fiscais em lote pela API nacional', year: '2026' },
+    ],
   },
   stats: [
     { num: 80000, suffix: '+', label: 'PDFs analisados pelo Document Guardian' },
@@ -247,10 +254,17 @@ const en: Copy = {
   },
   hero: {
     status: 'Looking for my first role on a tech team',
-    role: 'Front-end developer.',
-    sub: 'I build interfaces that become real work tools, used every day in production.',
+    headline: 'Front-end developer building tools',
+    headlineAccent: 'people use every day.',
+    sub: 'My software runs in production at an accounting firm. Now I want to grow on a tech team.',
     cta: 'See projects',
     photoAlt: 'Portrait of Hiram Galindo Jr',
+    indexLabel: 'Selected work',
+    index: [
+      { name: 'BackOffice OS', note: 'Internal operations suite, in production', year: '2025' },
+      { name: 'Document Guardian', note: 'Expiry dates across 80,000+ PDFs with cascading OCR', year: '2025' },
+      { name: 'NFS-e Downloader', note: 'Bulk invoices from Brazil’s national tax API', year: '2026' },
+    ],
   },
   stats: [
     { num: 80000, suffix: '+', label: 'PDFs scanned by Document Guardian' },
